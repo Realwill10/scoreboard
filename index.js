@@ -50,10 +50,8 @@ function highlightLeader() {
         scoreTwoEl.classList.remove("leaderHighlight");
         scoreOneEl.classList.remove("leaderHighlight");
     }
-
     else {
         scoreOneEl.classList.remove("leaderHighlight");
         scoreTwoEl.classList.add("leaderHighlight")
-
     }
 }
